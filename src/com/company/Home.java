@@ -26,7 +26,7 @@ public class Home extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == b1) {
                     f.dispose();
-                  //  BillSplit billSplitWindow = new BillSplit();
+                    CreateSurvey createSurveyWindow = new CreateSurvey();
                 }
             }
         });
@@ -69,7 +69,6 @@ public class Home extends JFrame{
 
         JLabel labelOne = new JLabel("Welcome to SunShine Survey!");
         labelOne.setBounds(130, 5, 300, 200);
-
 
         p.setLayout(null);
         p.add(b1);

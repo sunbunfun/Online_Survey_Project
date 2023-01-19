@@ -26,7 +26,7 @@ public class Home extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == b1) {
                     f.dispose();
-                    CreateSurvey createSurveyWindow = new CreateSurvey();
+                    CreateSurveyKey createSurveyKeyWindow = new CreateSurveyKey();
                 }
             }
         });

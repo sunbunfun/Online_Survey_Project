@@ -30,7 +30,7 @@ import java.awt.event.ActionListener;
                 public void actionPerformed(ActionEvent e) {
                     if (e.getSource() == b1) {
                         f.dispose();
-                        CreateSurveyKey createSurveyKeyWindow = new CreateSurveyKey();
+                        CreateSurvey createSurveyWindow = new CreateSurvey();
                     }
                 }
             });
